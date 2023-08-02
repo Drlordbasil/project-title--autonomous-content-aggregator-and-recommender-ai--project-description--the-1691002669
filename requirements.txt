@@ -1,0 +1,26 @@
+The package requirements for this program are:
+
+- requests
+- bs4 (BeautifulSoup)
+- googleapiclient
+- google_auth_oauthlib
+- google.auth.transport.requests
+- nltk
+- pandas
+- sklearn
+- matplotlib
+
+You can install these packages by running the following command:
+
+```
+pip install requests bs4 google-api-python-client google-auth-httplib2 google-auth-oauthlib nltk pandas scikit-learn matplotlib
+```
+
+You will also need to download nltk data by running the following code before importing nltk modules:
+
+```python
+import nltk
+
+nltk.download('punkt')
+nltk.download('stopwords')
+```
